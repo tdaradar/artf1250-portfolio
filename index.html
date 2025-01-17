@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>artf1250 - tatiana daradar</title>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <meta name="description" content="" />
+
+        <link rel="icon" href="favicon.png" />
+
+        <style>
+            @font-face {
+                font-family: "hack";
+                src: url(/fonts/hack/Hack-Regular.ttf);
+            }
+
+            @font-face {
+                font-family: "hack";
+                src: url(/fonts/hack/Hack-Bold.ttf);
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: "hack";
+                src: url(/fonts/hack/Hack-Italic.ttf);
+                font-style: italic;
+            }
+
+            @font-face {
+                font-family: "hack";
+                src: url(/fonts/hack/Hack-BoldItalic.ttf);
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            body {
+                font-family: hack;
+                font-size: 0.85em;
+            }
+
+            p {
+                margin: 0.2em;
+            }
+
+            .layout {
+                position: fixed;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+
+                max-width: 350px;
+            }
+
+            .header {
+                text-align: center;
+                font-size: 1.2em;
+                margin-bottom: 0.8em;
+            }
+
+            .menu {
+            }
+
+            .menu .item {
+                font-family: hack;
+                text-decoration: none;
+                color: gray;
+            }
+            
+            .menu .item:hover {
+                text-decoration: underline wavy 0.5px;
+            }
+            
+            .menu .item::before {
+                content: "> ";
+            }
+        </style>
+    </head>
+
+    <body>
+        <section class="layout">
+            <div class="header">
+                <p>portfolio for artf1250</p>
+                <p>tatiana daradar</p>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="/project0.html" target="_blank">
+                    <strong>project 0:</strong> define your 5Ds
+                </a>
+                <br>
+            </div>
+        </section>
+    </body>
+</html>
