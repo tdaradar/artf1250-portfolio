@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/fonts/hack/Hack-Regular.ttf);
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/fonts/hack/Hack-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/fonts/hack/Hack-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "hack";
+    src: url(/fonts/hack/Hack-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: hack;
+    font-size: 0.85em;
+}
+
+p {
+    margin: 0.2em;
+}
+
+.layout {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    max-width: 350px;
+}
+
+.header {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.header .title {
+    font-weight: bold;
+}
+
+.menu {
+    border-left: solid 1px;
+    border-image: linear-gradient(to bottom, #000 40%, #00000000 85%) 1;
+    padding: 15px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.menu .item {
+    display: block;
+    font-family: hack;
+    text-decoration: none;
+    color: black;
+    border: 1px dotted;
+    padding: 10px 15px;
+    border-radius: 0.8em;
+    transition: 0.3s;
+}
+
+.menu .item:hover {
+    color: black;
+    margin-left: 5px;
+    box-shadow: -1px 2px 3px rgba(0,0,0,0.5);
+}

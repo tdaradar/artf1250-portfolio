@@ -12,87 +12,20 @@
 
         <link rel="icon" href="favicon.png" />
 
+        <link rel="stylesheet" href="/css/indexstyle.css">
+
         <style>
 
-            * {
-                box-sizing: border-box;
-            }
 
-            @font-face {
-                font-family: "hack";
-                src: url(/fonts/hack/Hack-Regular.ttf);
-            }
 
-            @font-face {
-                font-family: "hack";
-                src: url(/fonts/hack/Hack-Bold.ttf);
-                font-weight: bold;
-            }
-
-            @font-face {
-                font-family: "hack";
-                src: url(/fonts/hack/Hack-Italic.ttf);
-                font-style: italic;
-            }
-
-            @font-face {
-                font-family: "hack";
-                src: url(/fonts/hack/Hack-BoldItalic.ttf);
-                font-weight: bold;
-                font-style: italic;
-            }
-
-            body {
-                font-family: hack;
-                font-size: 0.85em;
-            }
-
-            p {
-                margin: 0.2em;
-            }
-
-            .layout {
-                position: fixed;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-
-                max-width: 350px;
-            }
-
-            .header {
-                text-align: center;
-                font-size: 1.2em;
-                margin-bottom: 0.8em;
-            }
-
-            .menu {
-                border: 1px dotted;
-                padding: 10px;
-                border-radius: 0.8em;
-            }
-
-            .menu .item {
-                font-family: hack;
-                text-decoration: none;
-                color: gray;
-            }
-            
-            .menu .item:hover {
-                text-decoration: underline wavy 0.5px;
-            }
-            
-            .menu .item::before {
-                content: "> ";
-            }
         </style>
     </head>
 
     <body>
         <section class="layout">
             <div class="header">
-                <p>portfolio for artf1250</p>
-                <p>tatiana daradar</p>
+                <p class="title">portfolio for artf1250</p>
+                <p>> tatiana daradar</p>
             </div>
 
             <div class="menu">
@@ -100,6 +33,11 @@
                     <strong>project 0:</strong> define your 5Ds
                 </a>
                 <br>
+                <a class="item disabled" href="/project/0.html" target="_blank">
+                    <strong>project 1:</strong> research and proposal
+                </a>
+                <br>
+                <p style="font-style: italic;">etc...</p>
             </div>
         </section>
     </body>
