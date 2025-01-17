@@ -1,45 +1,96 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
 
-        <title>artf1250 - tatiana daradar</title>
+<head>
+    <meta charset="UTF-8" />
 
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>artf1250 - tatiana daradar</title>
 
-        <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-        <link rel="icon" href="favicon.png" />
+    <meta name="description" content="" />
 
-        <link rel="stylesheet" href="/css/indexstyle.css">
+    <link rel="icon" href="favicon.png" />
 
-        <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
-    </head>
+    <style>
+        .layout {
+            max-width: 650px;
+        }
 
-    <body>
-        <section class="layout">
-            <div class="header">
-                <p class="title">portfolio for artf1250</p>
-                <p>> tatiana daradar</p>
-            </div>
+        .header {
+            font-size: 0.85em;
+            margin-bottom: 1.2em;
+        }
 
-            <div class="menu">
-                <a class="item" href="/project/0.html" target="_blank">
-                    <strong>project 0:</strong> define your 5Ds
-                </a>
-                <br>
-                <a class="item disabled" href="/project/0.html" target="_blank">
-                    <strong>project 1:</strong> research and proposal
-                </a>
-                <br>
-                <p style="font-style: italic;">etc...</p>
-            </div>
+        .header .title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
 
-            <div class="footer">
-                <a href="https://github.com/tdaradar/artf1250-portfolio">github repo</a> / made on glitch
-            </div>
-        </section>
-    </body>
+        a {
+            color: gray;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        a:hover {
+            color: black;
+            letter-spacing: 0.05em;
+        }
+
+        .content {
+            border-top: 1px dotted black;
+        }
+
+        .content img {
+            width: 100%;
+        }
+
+        .content a img {
+            transition: 0.2s;
+        }
+
+        .content a img:hover {
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="layout">
+        <div class="header">
+            <p class="title">project 0: define your 5ds</p>
+            <p>> tatiana daradar</p>
+            <p>> <a href="/">return to index</a></p>
+        </div>
+        <div class="content">
+            <p>
+                click to view content in full size in another tab.
+            <br>
+            </p>
+            <a href="/project/0/0_notes.png" target="_blank">
+                <img src="/project/0/0_notes.png" title="notes">
+            </a>
+            <a href="/project/0/people.png" target="_blank">
+                <img src="/project/0/people.png" title="people">
+            </a>
+            <a href="/project/0/imagery.png" target="_blank">
+                <img src="/project/0/imagery.png" title="imagery">
+            </a>
+            <a href="/project/0/color.png" target="_blank">
+                <img src="/project/0/color.png" title="color">
+            </a>
+            <a href="/project/0/sound.png" target="_blank">
+                <img src="/project/0/sound.png" title="sound">
+            </a>
+            <a href="/project/0/environment.png" target="_blank">
+                <img src="/project/0/environment.png" title="environment">
+            </a>
+        </div>
+    </section>
+</body>
+
 </html>
