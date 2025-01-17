@@ -17,7 +17,8 @@
 
     <style>
         .layout {
-            max-width: 650px;
+            width: 100%;
+            max-width: 750px;
         }
 
         .header {
@@ -46,15 +47,22 @@
         }
 
         .content img {
-            width: 100%;
+            max-width: 150%;
         }
 
         .content a img {
             transition: 0.2s;
         }
 
-        .content a img:hover {
-            margin-left: 15px;
+        .imagescroll {
+            height: 350px;
+            overflow-y: auto;
+            border: 1px solid;
+            margin: 10px;
+        }
+
+        .imagescroll img {
+            width: 100%;
         }
     </style>
 </head>
@@ -69,26 +77,55 @@
         <div class="content">
             <p>
                 click to view content in full size in another tab.
-            <br>
+                <br>
             </p>
             <a href="/project/0/0_notes.png" target="_blank">
                 <img src="/project/0/0_notes.png" title="notes">
             </a>
-            <a href="/project/0/people.png" target="_blank">
-                <img src="/project/0/people.png" title="people">
-            </a>
-            <a href="/project/0/imagery.png" target="_blank">
-                <img src="/project/0/imagery.png" title="imagery">
-            </a>
-            <a href="/project/0/color.png" target="_blank">
-                <img src="/project/0/color.png" title="color">
-            </a>
-            <a href="/project/0/sound.png" target="_blank">
-                <img src="/project/0/sound.png" title="sound">
-            </a>
-            <a href="/project/0/environment.png" target="_blank">
-                <img src="/project/0/environment.png" title="environment">
-            </a>
+            <div class="imagescroll">
+                <a href="/project/0/people.png" target="_blank">
+                    <img src="/project/0/people.png" title="people">
+                </a>
+                <br>
+                <a href="/project/0/imagery.png" target="_blank">
+                    <img src="/project/0/imagery.png" title="imagery">
+                </a>
+                <br>
+                <a href="/project/0/color.png" target="_blank">
+                    <img src="/project/0/color.png" title="color">
+                </a>
+                <br>
+                <a href="/project/0/sound.png" target="_blank">
+                    <img src="/project/0/sound.png" title="sound">
+                </a>
+                <br>
+                <a href="/project/0/environment.png" target="_blank">
+                    <img src="/project/0/environment.png" title="environment">
+                </a>
+            </div>
+            <div class="reflection">
+                <p>Approaching this project was, honestly, kind of intimidating. While I'm familiar with design thinking
+                    and the design process, notions of a mind map and visualizations of key concepts aren't something
+                    I'm particularly used to nor am I fond of using in my own process, so completing this project was
+                    equally challenging and eye-opening to the fact that I honestly really enjoyed it. </p>
+
+                <p>
+                    It was sort of enlightening to see how my definitions of experience design are similar to what we
+                    discussed in class - imagery and color coincide with the second dimension, visuals; environment and
+                    sound coincide with the third dimension, objects; and people maybe coincides with the fourth or
+                    fifth dimensions, time and behavior, depending on the purpose of people in the experience I curate.
+                </p>
+
+                <p>
+                    Through this, the project made me think about intention in my design – how do I use all of these
+                    things to create an experience within my own definitions? Imagery and color are used to incite
+                    emotion, to provide a sense of familiarity in an otherwise strange situation, like an escape room;
+                    environment and sound do the same, setting the scene for new interactions. But people exist to
+                    guide, to add to the environment, and, well, to experience whatever I do design, so it was really
+                    interesting to see that humans exist at the core of my design process.
+                </p>
+
+            </div>
         </div>
     </section>
 </body>
