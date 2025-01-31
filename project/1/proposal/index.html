@@ -18,7 +18,6 @@
     <style>
         .layout {
             width: 100%;
-            max-width: 750px;
         }
 
         .header {
@@ -42,11 +41,21 @@
             letter-spacing: 0.05em;
         }
 
+        #flexcontent {
+            display: flex;
+            gap: 10px;
+        }
+
         .chosenitem {
             max-width: 500px;
             padding: 10px;
             border: 1px dotted;
-            margin-bottom: 10px;
+            overflow-y: auto;
+            height: 300px;
+        }
+
+        .chosenitem+.chosenitem {
+            margin-top: 10px;
         }
 
         .sidescroll {
@@ -58,9 +67,37 @@
             max-height: 200px;
 
         }
+
         .sidescroll img {
             height: 150px;
             display: inline-block;
+        }
+
+        .col-b {
+            font-weight: bold;
+        }
+
+        .proposal {
+            max-width: 500px;
+            border: 1px dotted;
+            padding: 10px;
+            font-size: 1em;
+        }
+
+        .proposal a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .proposal p {
+            margin-bottom: 15px;
+        }
+
+        .tldr {
+            max-width: 500px;
+            border: 1px dotted;
+            padding: 10px;
+            font-size: 1.2em;
         }
     </style>
 </head>
@@ -73,53 +110,184 @@
             <p>> <a href="/">return to index</a></p>
         </div>
 
-        <div>
-            <div class="chosenitem">
-                <div class="sidescroll">
-                    <img src="/project/1/proposal/lipgloss/tip.png">
-                    <img src="/project/1/proposal/lipgloss/xray.png">
-                    <img src="/project/1/proposal/lipgloss/clicker.png">
+        <div id="flexcontent">
+            <div>
+                <div class="chosenitem">
+                    <div class="sidescroll">
+                        <img src="/project/1/proposal/lipgloss/tip.png">
+                        <img src="/project/1/proposal/lipgloss/xray.png">
+                        <img src="/project/1/proposal/lipgloss/clicker.png">
+                    </div>
+                    <p class="col-b">
+                        A clickable lip gloss pen, in pink, that only pushes out a very minimal amount of formula when
+                        clicked.
+                    </p>
+                    <p class="col-c">
+                        This object is meaningful to me because it conserves formula and is thus cost-effective. I also
+                        find
+                        it really accessible – I have carpal tunnel, and squeezing a tube of lip gloss can be really
+                        exhausting for my wrist, so clicking is a much less painful motion.
+                    </p>
                 </div>
-                <p class="col-b">
-                    A clickable lip gloss pen, in pink, that only pushes out a very minimal amount of formula when clicked.
-                </p>
-                <p class="col-c">
-                    This object is meaningful to me because it conserves formula and is thus cost-effective. I also find it really accessible – I have carpal tunnel, and squeezing a tube of lip gloss can be really exhausting for my wrist, so clicking is a much less painful motion. 
-                </p>
+                <div class="chosenitem">
+                    <div class="sidescroll">
+                        <img src="/project/1/proposal/camera/front.png">
+                        <img src="/project/1/proposal/camera/back.png">
+                        <img src="/project/1/proposal/camera/dial.png">
+                        <img src="/project/1/proposal/camera/stickers.png">
+                    </div>
+                    <p class="col-b">
+                        A metallic handheld digital camera from 2006.
+                    </p>
+                    <p class="col-c">
+                        I wanted a digital camera for a very very long time after losing the one I received for my tenth
+                        birthday, and for Christmas my uncle gave me one he didn’t use.
+                    </p>
+                </div>
+                <div class="chosenitem">
+                    <div class="sidescroll">
+                        <img src="/project/1/proposal/drawstring/front.png">
+                        <img src="/project/1/proposal/drawstring/back.png">
+                        <img src="/project/1/proposal/drawstring/full.png">
+                    </div>
+                    <p class="col-b">
+                        A pink patterned drawstring bag, made of fabric.
+                    </p>
+                    <p class="col-c">
+                        It holds my camera. Also, my boyfriend got it for me, and I was very touched by that. :)
+                    </p>
+                </div>
             </div>
-            <div class="chosenitem">
-                <div class="sidescroll">
-                    <img src="/project/1/proposal/camera/front.png">
-                    <img src="/project/1/proposal/camera/back.png">
-                    <img src="/project/1/proposal/camera/dial.png">
-                    <img src="/project/1/proposal/camera/stickers.png">
-                </div>
-                <p class="col-b">
-                    A metallic handheld digital camera from 2006.
-                </p>
-                <p class="col-c">
-                    I wanted a digital camera for a very very long time after losing the one I received for my tenth birthday, and for Christmas my uncle gave me one he didn’t use. 
-                </p>
+            <div class="proposal">
+                <p>I would like to redesign my digital camera so it can be used comfortably with one hand, for
+                    convenience
+                    and accessibility. It’s bulky and the dial used to switch between Auto, Manual, Preview etc. modes
+                    is
+                    stiff and difficult to push without holding the camera in place. This improved camera will be
+                    designed
+                    for people with physical disabilities that prevent them from being able to hold a camera with both
+                    hands, like a missing limb or weak arm, and for people who cannot put much strength into their
+                    movements, such as people like myself with Carpal Tunnel Syndrome. </p>
+                <p>This improved camera will have a handheld remote to be used for navigation and shutter, separate from
+                    the
+                    camera itself (which will also have typical controls). Thus, this camera can be placed on a stable
+                    surface who can then click the remote with their hand. The remote will also have a screen with a
+                    preview
+                    of the camera’s screen. This is inspired by the Apple Watch’s ability to connect to an iPhone, and
+                    how
+                    it can be used as a shutter button and preview. It can also be used like a typical camera. Because
+                    it’s
+                    meant for people with weaker holds, this product would be made of a lightweight magnesium compound,
+                    which is often found in modern digital cameras for casual use, everyday, anywhere. I would also like
+                    to
+                    make the dial located on this camera and remote significantly easier to use, turning it into a touch
+                    and
+                    click interface – when they’re gently touched, an image shows on the screen indicating where the
+                    touched
+                    button leads to when clicked, similar to a hover function over a button on a laptop. I would like to
+                    prototype this physical form with cardboard, for a stiff, but lightweight initial design, and cover
+                    it
+                    with some kind of dull aluminum foil to imitate its metallic exterior. <a
+                        href="https://www.voguebusiness.com/story/fashion/gen-zs-want-chaotic-customisation-in-2025-how-can-brands-tap-in"
+                        target="_blank">Many people these days enjoy customizing their belongings</a>, so both for it to
+                    be
+                    sleek and for canvas space, this object would have plenty of flat, empty space around the lens,
+                    capability for a custom wrist strap, and a customizable startup screen.</p>
+                <p><a href="https://www.bbc.com/news/articles/cw9yzw4ywnpo" target="_blank">Less and less people read
+                        instruction manuals</a> with technology like cameras these days, so I wanted to include some
+                    kind of
+                    tutorial available on the device itself to new users, similar to <a
+                        href="https://www.spriters-resource.com/wii/wiimenu/sheet/67541/" target="_blank">controller
+                        dialogues on the Nintendo Wii</a>. To prototype these tutorial screens, I’ll use Figma.</p>
             </div>
-            <div class="chosenitem">
-                <div class="sidescroll">
-                    <img src="/project/1/proposal/drawstring/front.png">
-                    <img src="/project/1/proposal/drawstring/back.png">
-                    <img src="/project/1/proposal/drawstring/full.png">
-                </div>
-                <p class="col-b">
-                    A pink patterned drawstring bag, made of fabric.
-                </p>
-                <p class="col-c">
-                    It holds my camera. Also, my boyfriend got it for me, and I was very touched by that. :) 
-                </p>
+            <div class="tldr">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Audience</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>Young people with disabilities that affect their ability to hold cameras steady or
+                                    with both hands</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Form</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>Sleek, with space for stickers, and adjustments to make it easier to hold, with
+                                    accessible instructions in a digital form</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Material</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>The actual product: magnesium compound, plastic, etc.; the prototype: cardboard and
+                                    aluminum foil</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Appeal</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>Stylish and ergonomic without sacrificing customization options for Gen Z; accessible
+                                    but not &lsquo;ugly&rsquo; and singular</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Purpose</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>To take cute photos as easily as possible for the user, while still keeping the
+                                    point-and-click experience for those who would like it</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Message</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>You deserve to be kind to your body and do what others can do without sacrificing
+                                    physical health</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Location</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>Anytime, anywhere; or anywhere with a place to place your camera</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Usability</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>Usable both as a typical camera and as a camera with an extended remote</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="129">
+                                <p><strong>Technique</strong></p>
+                            </td>
+                            <td width="505">
+                                <p>Using the remote as a &lsquo;mouse&rsquo; with one hand, and setting the camera down
+                                    on a remote surface</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <div class="proposal">
-            <p>I would like to redesign my digital camera so it can be used comfortably with one hand, for convenience and accessibility. It’s bulky and the dial used to switch between Auto, Manual, Preview etc. modes is stiff and difficult to push without holding the camera in place. This improved camera will be designed for people with physical disabilities that prevent them from being able to hold a camera with both hands, like a missing limb or weak arm, and for people who cannot put much strength into their movements, such as people like myself with Carpal Tunnel Syndrome. </p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This improved camera will have a handheld remote to be used for navigation and shutter, separate from the camera itself (which will also have typical controls). Thus, this camera can be placed on a stable surface who can then click the remote with their hand. The remote will also have a screen with a preview of the camera’s screen. This is inspired by the Apple Watch’s ability to connect to an iPhone, and how it can be used as a shutter button and preview. It can also be used like a typical camera. Because it’s meant for people with weaker holds, this product would be made of a lightweight magnesium compound, which is often found in modern digital cameras for casual use, everyday, anywhere. I would also like to make the dial located on this camera and remote significantly easier to use, turning it into a touch and click interface – when they’re gently touched, an image shows on the screen indicating where the touched button leads to when clicked, similar to a hover function over a button on a laptop. I would like to prototype this physical form with cardboard, for a stiff, but lightweight initial design, and cover it with some kind of dull aluminum foil to imitate its metallic exterior. <a href="https://www.voguebusiness.com/story/fashion/gen-zs-want-chaotic-customisation-in-2025-how-can-brands-tap-in" target="_blank">Many people these days enjoy customizing their belongings</a>, so both for it to be sleek and for canvas space, this object would have plenty of flat, empty space around the lens, capability for a custom wrist strap, and a customizable startup screen.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.bbc.com/news/articles/cw9yzw4ywnpo" target="_blank">Less and less people read instruction manuals</a> with technology like cameras these days, so I wanted to include some kind of tutorial available on the device itself to new users, similar to <a href="https://www.spriters-resource.com/wii/wiimenu/sheet/67541/" target="_blank">controller dialogues on the Nintendo Wii</a>. To prototype these tutorial screens, I’ll use Figma.</p>
-        </div>
-       
-        
+
+
     </section>
 </body>
 
